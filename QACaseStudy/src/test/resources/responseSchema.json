@@ -1,0 +1,161 @@
+{
+  "status": "string",
+  "result": {
+    "type": "object",
+    "required": true,
+    "properties": {
+      "postcode": {
+        "type": "string",
+        "id": "postcode1",
+        "required": true
+      },
+      "quality": {
+        "type": "integer",
+        "id": "quality1",
+        "required": true
+      },
+      "eastings": {
+        "type": "integer",
+        "id": "estings1",
+        "required": true
+      },
+      "northings": {
+        "type": "integer",
+        "id": "northings1",
+        "required": true
+      },
+      "country": {
+        "type": "string",
+        "id": "country1",
+        "required": true
+      },
+      "nhs_ha": {
+        "type": "string",
+        "id": "nhs_ha1",
+        "required": true
+      },
+      "longitude": {
+        "type": "number",
+        "id": "longitude1",
+        "required": true
+      },
+      "latitude": {
+        "type": "number",
+        "id": "latitude1",
+        "required": true
+      },
+      "european_electoral_region": {
+        "type": "string",
+        "id": "european_electoral_region1",
+        "required": true
+      },
+      "primary_care_trust": {
+        "type": "string",
+        "id": "primary_care_trust1",
+        "required": true
+      },
+      "region": {
+        "type": "string",
+        "id": "region1",
+        "required": true
+      },
+      "lsoa": {
+        "type": "string",
+        "id": "lsoa1",
+        "required": true
+      },
+      "msoa": {
+        "type": "string",
+        "id": "msoa1",
+        "required": true
+      },
+      "incode": {
+        "type": "string",
+        "id": "incode1",
+        "required": true
+      },
+      "outcode": {
+        "type": "string",
+        "id": "outcode1",
+        "required": true
+      },
+      "parliamentary_constituency": {
+        "type": "string",
+        "id": "parliamentary_constituency1",
+        "required": true
+      },
+      "admin_district": {
+        "type": "string",
+        "id": "admin_district1",
+        "required": true
+      },
+      "parish": {
+        "type": "string",
+        "id": "parish1",
+        "required": true
+      },
+      "admin_county": {
+        "type": "string",
+        "id": "admin_county1",
+        "required": true
+      },
+      "admin_ward": {
+        "type": "string",
+        "id": "admin_ward1",
+        "required": true
+      },
+      "ccg": {
+        "type": "string",
+        "id": "ccg1",
+        "required": true
+      },
+      "nuts": {
+        "type": "string",
+        "id": "nuts1",
+        "required": true
+      },
+      "codes": {
+        "type": "object",
+        "id": "code1",
+        "required": true,
+        "properties": {
+          "admin_district": {
+            "type": "string",
+            "id": "admin_district2",
+            "required": true
+          },
+          "admin_county": {
+            "type": "string",
+            "id": "admin_county2",
+            "required": true
+          },
+          "admin_ward": {
+            "type": "string",
+            "id": "admin_ward2",
+            "required": true
+          },
+          "parish": {
+            "type": "string",
+            "id": "parish2",
+            "required": true
+          },
+          "parliamentary_constituency": {
+            "type": "string",
+            "id": "parliamentary_constituency2",
+            "required": true
+          },
+          "ccg": {
+            "type": "string",
+            "id": "ccg2",
+            "required": true
+          },
+          "nuts": {
+            "type": "string",
+            "id": "nuts2",
+            "required": true
+          }
+        }
+      }
+    }
+  }
+}
