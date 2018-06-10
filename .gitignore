@@ -8,6 +8,7 @@
 .idea/
 target/
 *.iml
+*.DS_Store
 
 # BlueJ files
 *.ctxt
