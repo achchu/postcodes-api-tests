@@ -1,6 +1,6 @@
 # postcodes-api-tests
 
-Endpoint tests to validate the apis from postcodes.io. TestNG & Cucumber have been used to write the api tests. Maven has been chosen as the build tool. 
+This was a small POC project I created for an interview. Endpoint tests to validate the apis from postcodes.io. TestNG & Cucumber have been used to write the api tests. Maven has been chosen as the build tool. 
 In order to make endpoint calls restAssured library has been used
 
 ## Getting Started
